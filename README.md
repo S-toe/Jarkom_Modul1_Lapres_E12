@@ -41,7 +41,7 @@ filter : `http.authbasic`
 
 cara : - (paket yg ditampilkan sudah sesuai)
 
-![image](https://user-images.githubusercontent.com/58405725/96358790-675cb580-1135-11eb-846d-bc2ca0850728.png)
+![image](https://user-images.githubusercontent.com/58405725/96373848-48900a80-1199-11eb-8c19-6ea45a8e41c0.png)
 
 ## Soal 5
 ```
@@ -124,11 +124,15 @@ Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 ```
 filter : `port 21`
 
+![image](https://user-images.githubusercontent.com/58405725/96373888-7f662080-1199-11eb-8c4d-11d79d6de0f2.png)
+
 ## Soal 12
 ```
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 ```
 filter : `src port 80`
+
+![image](https://user-images.githubusercontent.com/58405725/96373913-a3c1fd00-1199-11eb-9cdc-5f11ad799857.png)
 
 ## Soal 13
 ```
@@ -136,14 +140,21 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 ```
 filter : `dst port 443`
 
+![image](https://user-images.githubusercontent.com/58405725/96373925-bb998100-1199-11eb-8274-94686caf89ed.png)
+
 ## Soal 14
 ```
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 ```
 filter : `ip src 192.168.43.55`
 
+![image](https://user-images.githubusercontent.com/58405725/96373942-d966e600-1199-11eb-81b7-0d383bc2b9e6.png)
+
 ## Soal 15
 ```
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 ```
 filter : `dst host monta.if.its.ac.id`
+
+![image](https://user-images.githubusercontent.com/58405725/96373962-04e9d080-119a-11eb-90f3-9c48006e9d4e.png)
+
